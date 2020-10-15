@@ -1,4 +1,171 @@
+/*Палітра кольорів
+    Фон головний -#FFFFFF;
+    Фон другорядний -#F5F4FA;
+    Футер - #2F303A;
+    Навігація та заголовни - #212121;
+    Посилання та абзаци - #757575;
+    Наведення посилань - #2196F3;
+*/
+
+/*CSS змінні*/
+
+:root {
+  --main-background-color: #ffffff;
+  --second-background-color: #f5f4fa;
+  --background-footer: #2f303a;
+  --text-nav-tittle: #212121;
+  --text-links: #757575;
+  --accent: #2196f3;
+}
+
 body {
-  font-family: Roboto;
-  color: aquamarine;
+  background-color: #fff;
+}
+
+/*Header*/
+
+/*Header Logo*/
+
+.logo {
+  color: var(--accent);
+}
+
+.studio-header {
+  color: var(--text-nav-tittle);
+}
+
+/*Navigation*/
+
+.header-nav .link {
+  color: var(--text-nav-tittle);
+}
+
+.header-nav .link:hover,
+.header-nav .link:focus {
+  color: var(--accent);
+}
+
+.header-nav .link.current {
+  color: var(--text-nav-tittle);
+}
+
+/*Header adress*/
+
+.header-adress .link {
+  color: var(--text-links);
+}
+
+.header-adress .link:hover,
+.header-adress .link:focus {
+  color: var(--accent);
+}
+
+/*Main*/
+
+/*Hero*/
+
+.hero-tittle {
+  background-color: yellowgreen;
+  color: var(--main-background-color);
+}
+
+.hero-button {
+  background-color: var(--accent);
+  color: var(--main-background-color);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--second-background-color);
+  color: var(--text-nav-tittle);
+}
+
+/*Features*/
+
+.feature-tittle {
+  color: var(--text-nav-tittle);
+}
+
+.feature-text {
+  color: var(--text-links);
+}
+
+/*Work section*/
+
+.work-tittle {
+  color: var(--text-nav-tittle);
+}
+
+/*Team*/
+
+.team {
+  background-color: var(--second-background-color);
+}
+
+.team-tittle,
+.name-worker {
+  color: var(--text-nav-tittle);
+}
+
+.work-position {
+  color: var(--text-links);
+}
+
+/*Footer*/
+
+/*Logo*/
+
+.footer {
+  background-color: var(--background-footer);
+}
+/*Footer Logo*/
+
+.studio-footer {
+  color: var(--main-background-color);
+}
+
+/*Footer Adress*/
+
+.adress {
+  color: var(--main-background-color);
+}
+
+.footer-adress .link {
+  color: var(--main-background-color);
+}
+
+.footer-adress .link:hover,
+.footer-adress .link:focus {
+  color: var(--accent);
+}
+
+/*Portfolio*/
+
+/*Main*/
+
+body {
+  background-color: #fff;
+}
+
+/*Buttons*/
+
+.portfolio-button .link {
+  background-color: var(--second-background-color);
+  color: var(--text-nav-tittle);
+}
+
+.portfolio-button .link:hover,
+.portfolio-button .link:focus {
+  background-color: var(--accent);
+  color: var(--main-background-color);
+}
+
+/*Portfolio Images*/
+
+.img-tittle {
+  color: var(--text-nav-tittle);
+}
+
+.project {
+  color: var(--text-links);
 }
