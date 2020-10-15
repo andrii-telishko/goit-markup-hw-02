@@ -20,6 +20,7 @@
 
 body {
   background-color: #fff;
+  font-family: Roboto, sans-serif;
 }
 
 /*Header*/
@@ -28,6 +29,12 @@ body {
 
 .logo {
   color: var(--accent);
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .studio-header {
@@ -38,6 +45,11 @@ body {
 
 .header-nav .link {
   color: var(--text-nav-tittle);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .header-nav .link:hover,
@@ -53,6 +65,11 @@ body {
 
 .header-adress .link {
   color: var(--text-links);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .header-adress .link:hover,
@@ -67,11 +84,25 @@ body {
 .hero-tittle {
   background-color: yellowgreen;
   color: var(--main-background-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .hero-button {
   background-color: var(--accent);
   color: var(--main-background-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  align-items: center;
+  text-align: center;
 }
 
 .hero-button:hover,
@@ -84,16 +115,34 @@ body {
 
 .feature-tittle {
   color: var(--text-nav-tittle);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .feature-text {
   color: var(--text-links);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
-/*Work section*/
+/*Work section + Team*/
 
-.work-tittle {
+.work-tittle,
+.team-tittle {
   color: var(--text-nav-tittle);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /*Team*/
@@ -102,13 +151,24 @@ body {
   background-color: var(--second-background-color);
 }
 
-.team-tittle,
 .name-worker {
   color: var(--text-nav-tittle);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .work-position {
   color: var(--text-links);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /*Footer*/
@@ -128,10 +188,22 @@ body {
 
 .adress {
   color: var(--main-background-color);
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .footer-adress .link {
-  color: var(--main-background-color);
+  color: rgba(255, 255, 255, 0.6);
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .footer-adress .link:hover,
@@ -152,6 +224,12 @@ body {
 .portfolio-button .link {
   background-color: var(--second-background-color);
   color: var(--text-nav-tittle);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .portfolio-button .link:hover,
@@ -164,8 +242,18 @@ body {
 
 .img-tittle {
   color: var(--text-nav-tittle);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .project {
   color: var(--text-links);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
